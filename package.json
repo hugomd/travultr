@@ -1,0 +1,41 @@
+{
+  "name": "travultr",
+  "version": "0.0.1",
+  "description": "A CLI client for Vultr",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "posttest": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/travultr.git"
+  },
+  "author": {
+    "name": "Hugo Muller-Downing",
+    "email": "npmjs@hugo.sx",
+    "url": "hu.md"
+  },
+  "keywords": [
+    "vultr",
+    "api",
+    "client",
+    "cli"
+  ],
+  "xo": {
+    "space": true,
+    "rules": {}
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomd/travultr/issues"
+  },
+  "homepage": "https://github.com/hugomd/travultr#readme",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "xo": "^0.18.0"
+  }
+}
