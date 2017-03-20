@@ -9,6 +9,9 @@
     "lint": "xo",
     "build": "./build.sh"
   },
+  "files": [
+    "build"
+  ],
   "bin": {
     "travultr": "./build/bin/travultr.js"
   },
