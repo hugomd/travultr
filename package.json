@@ -6,10 +6,11 @@
   "scripts": {
     "test": "ava --verbose",
     "posttest": "xo",
+    "lint": "xo",
     "build": "./build.sh"
   },
   "bin": {
-    "now": "./build/bin/travultr.js"
+    "travultr": "./build/bin/travultr.js"
   },
   "engines": {
     "node": ">=7.7.1"
