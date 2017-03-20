@@ -50,6 +50,7 @@ Options:
   -V, --version  output the version number
 ```
 
+# Contributing
 1. Clone the repo
 2. Make a new local branch
 3. Change what you'd like
