@@ -16,6 +16,6 @@ if (!process.env.VULTR_API_TOKEN) {
 
 program
   .version(pkg.version)
-  .command('list', 'list available servers')
+  .command('server', 'Access server resources')
   .command('version', 'print travultr version').alias('v')
   .parse(process.argv);
