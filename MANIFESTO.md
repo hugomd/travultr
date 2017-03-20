@@ -50,6 +50,11 @@ Options:
   -V, --version  output the version number
 ```
 
+# Where'd the name `travultr` come from?
+John Travolta.
+
+![](https://media.giphy.com/media/hEc4k5pN17GZq/giphy.gif)
+
 # Contributing
 1. Clone the repo
 2. Make a new local branch
