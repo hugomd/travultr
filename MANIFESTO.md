@@ -53,7 +53,7 @@ Options:
 # Where'd the name `travultr` come from?
 John Travolta.
 
-![](https://media.giphy.com/media/hEc4k5pN17GZq/giphy.gif)
+![](https://gif.now.sh/john%20travolta/TA5UdQTc3NVKg)
 
 # Contributing
 1. Clone the repo
