@@ -2,9 +2,17 @@
 
 // Packages
 const program = require('commander');
+const chalk = require('chalk');
 
 // Ours
 const pkg = require('../lib/pkg');
+
+const log = console.log;
+
+if (!process.env.VULTR_API_TOKEN) {
+  log(chalk.red('VULTR_API_TOKEN environment variable must be set.'));
+  process.exit(1);
+}
 
 program
   .version(pkg.version)
