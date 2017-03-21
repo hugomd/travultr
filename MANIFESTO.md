@@ -24,7 +24,8 @@ npm install travultr
   * [ ] set label
   * [ ] resize
 * [ ] regions
-  * [ ] list
+  * [x] list all
+  * [ ] list available
 * [ ] dns
   * [ ] list records
   * [ ] create domain
@@ -32,6 +33,10 @@ npm install travultr
   * [ ] create record
   * [ ] update record
   * [ ] delete record
+* [x] operating systems
+  * [x] list
+* [x] plans
+  * [x] list
 
 # Usage
 ```
