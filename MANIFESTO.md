@@ -1,4 +1,6 @@
-# Travultr 🐦 [![](https://img.shields.io/npm/v/travultr.svg?maxAge=2592000)](https://npmjs.com/travultr) [![](https://img.shields.io/npm/dm/travultr.svg?maxAge=2592000)](https://npmjs.com/travultr) [![](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](./LICENSE) [![Build status](https://badge.buildkite.com/d339a43f0f35b9a705c81cbe96d7b9f7c17c03991dfe0b49b4.svg)](https://buildkite.com/open-source/travultr)
+# Travultr 🐦
+[![](https://img.shields.io/npm/v/travultr.svg?maxAge=2592000)](https://npmjs.com/travultr) [![](https://img.shields.io/npm/dm/travultr.svg?maxAge=2592000)](https://npmjs.com/travultr) [![](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](./LICENSE) [![Build status](https://badge.buildkite.com/d339a43f0f35b9a705c81cbe96d7b9f7c17c03991dfe0b49b4.svg)](https://buildkite.com/open-source/travultr)
+
 A CLI client for [Vultr](https://vultr.com), following their [API documentation](https://www.vultr.com/api/).
 
 *Note: this project is a work in progress*.
