@@ -11,12 +11,13 @@ const config = require('../lib/config');
 const log = console.log;
 
 config.getConfig()
-  .then(localConfig => {
+  .then(file => {
+    const localConfig = require(file);
     if ('VULTR_API_TOKEN' in localConfig) {
+      process.env.VULTR_API_TOKEN = localConfig.VULTR_API_TOKEN;
+    } else {
       log(chalk.red('VULTR_API_TOKEN variable must be set in ~/.travultr.js'));
       process.exit(1);
-    } else {
-      global.VULTR_API_TOKEN = localConfig.VULTR_API_TOKEN;
     }
 
     program
