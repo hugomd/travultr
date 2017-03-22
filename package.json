@@ -11,7 +11,9 @@
     "prepare": "npm run build"
   },
   "files": [
-    "build"
+    "build",
+    "README.md",
+    "MANIFESTO.md"
   ],
   "bin": {
     "travultr": "./build/bin/travultr.js"
