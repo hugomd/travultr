@@ -5,18 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "ava --verbose",
-    "posttest": "xo",
-    "lint": "xo",
-    "build": "./build.sh",
-    "prepare": "npm run build"
+    "posttest": "xo"
   },
   "files": [
+    "lib",
     "build",
     "README.md",
     "MANIFESTO.md"
   ],
   "bin": {
-    "travultr": "./build/bin/travultr.js"
+    "travultr": "./bin/travultr.js"
   },
   "engines": {
     "node": ">=7.7.1"
