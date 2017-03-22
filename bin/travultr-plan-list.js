@@ -1,12 +1,8 @@
 #!/usr/bin/env node
 
-const {red} = require('chalk');
-
 // Ours
-const list = require('../lib/plan/list');
+const Vultr = require('../lib/vultr');
 
-const log = console.log;
+const v = new Vultr();
 
-list().then(table => {
-  log(table.toString());
-}).catch(err => log(red(err)));
+v.listPlans();

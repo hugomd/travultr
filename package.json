@@ -38,7 +38,10 @@
     "space": true,
     "rules": {
       "camelcase": 0,
-      "promise/no-promise-in-callback": 0
+      "promise/no-promise-in-callback": 0,
+      "array-callback-return": 0,
+      "curly": 0,
+      "unicorn/no-process-exit": 0
     }
   },
   "license": "MIT",
@@ -47,6 +50,7 @@
   },
   "homepage": "https://github.com/hugomd/travultr#readme",
   "dependencies": {
+    "axios": "^0.15.3",
     "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
     "commander": "git+https://github.com/tj/commander.js.git",

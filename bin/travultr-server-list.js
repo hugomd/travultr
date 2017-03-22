@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 
 // Ours
-const list = require('../lib/server/list');
+const Vultr = require('../lib/vultr');
 
-const log = console.log;
+const v = new Vultr();
 
-list.then(table => {
-  log(table.toString());
-});
+v.listServers();
