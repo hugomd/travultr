@@ -8,8 +8,8 @@
     "posttest": "xo"
   },
   "files": [
-    "lib",
-    "build",
+    "lib/",
+    "bin/",
     "README.md",
     "MANIFESTO.md"
   ],
