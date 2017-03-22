@@ -14,7 +14,7 @@ program
   .option('-o, --osid <n>', 'Operating System ID', parseInt)
   .option('-v, --vpsplanid <n>', 'VPS Plan ID', parseInt)
   .option('-l, --label <s>', 'VPS label')
-  .option('-h, --hostname <s>', 'VPS hostname')
+  .option('-H, --hostname <s>', 'VPS hostname')
   .parse(process.argv);
 
 let missingFlag = false;
