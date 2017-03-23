@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 // Ours
-const Vultr = require('../lib/vultr');
+const region = require('../lib/region');
 
-const v = new Vultr();
+const list = async () => {
+  await region.list();
+};
 
-v.region.list();
+list();

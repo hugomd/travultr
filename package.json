@@ -60,7 +60,7 @@
     "prompt": "^1.0.0",
     "promptly": "^2.1.0",
     "superagent": "^3.5.1",
-    "vultr-api": "file:../vultr-api"
+    "travultr-api": "^0.0.3"
   },
   "devDependencies": {
     "ava": "^0.18.2",
