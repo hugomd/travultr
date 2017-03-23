@@ -5,4 +5,4 @@ const Vultr = require('../lib/vultr');
 
 const v = new Vultr();
 
-v.listRegions();
+v.region.list();
