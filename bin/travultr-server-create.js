@@ -3,11 +3,9 @@
 // Packages
 const program = require('commander');
 const {red} = require('chalk');
+const server = require('../lib/server');
 
 const log = console.log;
-const Vultr = require('../lib/vultr');
-
-const v = new Vultr();
 
 program
   .option('-d, --dcid <n>', 'Datacentre ID', parseInt)
@@ -38,10 +36,12 @@ if (program.vpsplanid !== '') payload.VPSPLANID = program.vpsplanid;
 if (program.label !== '') payload.label = program.label;
 if (program.hostname !== '') payload.hostname = program.hostname;
 
-v.server.create(payload)
-  .then(({status}) => {
-    if (status !== 200) {
-      throw log(red('Error creating server.'));
-    }
-  })
-  .catch(() => process.exit(1));
+const create = async payload => {
+  try {
+    await server.create(payload);
+  } catch (err) {
+    process.exit(1);
+  }
+};
+
+create(payload);

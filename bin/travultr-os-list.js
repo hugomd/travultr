@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 // Ours
-const Vultr = require('../lib/vultr');
+const os = require('../lib/operating-system');
 
-const v = new Vultr();
+const list = async () => {
+  await os.list();
+};
 
-v.os.list();
+list();

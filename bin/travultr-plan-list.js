@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 // Ours
-const Vultr = require('../lib/vultr');
+const plan = require('../lib/plan');
 
-const v = new Vultr();
+const list = async () => {
+  await plan.list();
+};
 
-v.plan.list();
+list();
