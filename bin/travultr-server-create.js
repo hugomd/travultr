@@ -38,7 +38,7 @@ if (program.vpsplanid !== '') payload.VPSPLANID = program.vpsplanid;
 if (program.label !== '') payload.label = program.label;
 if (program.hostname !== '') payload.hostname = program.hostname;
 
-v.createServer(payload)
+v.server.create(payload)
   .then(({status}) => {
     if (status !== 200) {
       throw log(red('Error creating server.'));
