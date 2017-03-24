@@ -3,6 +3,8 @@
 
 A CLI client for [Vultr](https://vultr.com), following their [API documentation](https://www.vultr.com/api/).
 
+Uses the [vyltr](https://github.com/hugomd/vyltr) API wrapper for Vultr.
+
 *Note: this project is a work in progress*.
 
 # Installation
